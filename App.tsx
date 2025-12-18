@@ -20,8 +20,8 @@ const App: React.FC = () => {
     return localStorage.getItem('bankfv_last_sync');
   });
 
-  const [partnerA, setPartnerA] = useState('Teste');
-  const [partnerB, setPartnerB] = useState('Milena');
+  const [partnerA, setPartnerA] = useState('William');
+  const [partnerB, setPartnerB] = useState('Abel');
   const [showForm, setShowForm] = useState(false);
   const [showSync, setShowSync] = useState(false);
   const [currentView, setCurrentView] = useState<'dashboard' | 'reports'>('dashboard');
