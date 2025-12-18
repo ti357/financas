@@ -21,7 +21,7 @@ const App: React.FC = () => {
   });
 
   const [partnerA, setPartnerA] = useState('William');
-  const [partnerB, setPartnerB] = useState('Abel');
+  const [partnerB, setPartnerB] = useState('Milena');
   const [showForm, setShowForm] = useState(false);
   const [showSync, setShowSync] = useState(false);
   const [currentView, setCurrentView] = useState<'dashboard' | 'reports'>('dashboard');
